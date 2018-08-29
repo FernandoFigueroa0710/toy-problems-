@@ -11,3 +11,4 @@ var augmentElements = function(array, aug) {
     //return the value in the array pairing with the element outside the array
     //recurse the elements in the array
      return [array[0].concat(aug)].concat(augmentElements(array.slice(1), aug));
+};
